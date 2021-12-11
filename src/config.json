@@ -1,18 +1,42 @@
 {
-    "max_mmr" : 7500,
-    "promocode10" : ["Hi", "Bye"],
-    "promocode20" : ["Py", "Ly"],
-    "promocode30" : ["Dy", "Rai"],
-    "price_modificators" : {
-        "party_boost" : 60,
-        "stream" : 10,
-        "spec_heroes" : 15,
-        "serv_NA" : 30,
-        "serv_SEA" : 40,
-        "promocode10" : 10,
-        "promocode20" : 20,
-        "promocode30" : 30
+    "max_mmr": 7500,
+    "promocode10": [
+        "Hi",
+        "Bye"
+    ],
+    "promocode20": [
+        "Py",
+        "Ly"
+    ],
+    "promocode30": [
+        "Dy",
+        "Rai"
+    ],
+    "price_modificators": {
+        "party_boost": 60,
+        "stream": 10,
+        "spec_heroes": 15,
+        "serv_NA": 30,
+        "serv_SEA": 40,
+        "promocode10": 10,
+        "promocode20": 20,
+        "promocode30": 30
     },
-    "coach_rub" : 600,
-    "coach_usd": 14
+    "coach_rub": 600,
+    "coach_usd": 14,
+    "prices": {
+        "rub": {
+            "0-2000": 1.1,
+            "2000-3000": 1.4,
+            "3000-3500": 1.7,
+            "3500-4000": 2,
+            "4000-4500": 2.65,
+            "4500-5000": 3.2,
+            "5000-5500": 4,
+            "5500-6000": 5,
+            "6000-6500": 8,
+            "6500-7000": 10,
+            "7000+": 20
+        }
+    }
 }
